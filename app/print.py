@@ -4,7 +4,7 @@ from app.book import Book
 
 class Print(ABC):
     @abstractmethod
-    def print_book(self, book: str) -> None:
+    def print_book(self, book: Book) -> None:
         pass
 
 
